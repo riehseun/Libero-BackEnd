@@ -27,7 +27,7 @@ io.on('connection', function(socket){
     	//io.emit('user', msg);
 	
 	socket.on('msg', function(msg) {
-		console.log("ready to broadcast");
+		//console.log("ready to broadcast");
 		var arr = msg.split(":");
 		var count = arr[0];
 		var user = arr[1];
